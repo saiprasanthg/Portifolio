@@ -1,0 +1,11 @@
+runtime: python3
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: Portifolio/index.html
+  upload: Portifolio/index.html
+
+- url: /
+  static_dir: Portifolio
