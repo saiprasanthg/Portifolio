@@ -6,5 +6,6 @@ handlers:
   static_files: Portifolio/index.html
   upload: Portifolio/index.html
 
-- url: /
+- url: /(.*)
   static_dir: Portifolio
+  upload: /(.*)
